@@ -1,0 +1,28 @@
+*{
+    /* border: 1px solid black; */
+}
+.para{
+    border: 1px solid black;
+}
+.adu{
+    border: 1px solid black;
+}
+.adu,ul{
+    display:flex;
+    list-style: none;
+}
+.adu,li{
+    border: 2px solid blue;
+    padding: 3px;
+}
+.span{
+    display: block;
+    border: 1px solid blueviolet;
+    padding: 5px;
+    margin: 5px;
+
+}
+.adu2{
+    border: 1px solid black;
+    text-align: 5px;
+}

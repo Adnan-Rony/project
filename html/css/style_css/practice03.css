@@ -1,0 +1,18 @@
+.adu{
+    text-align: justify;
+    color: brown;
+    border: 1px solid red;
+    margin-top: 20px;
+    background-color: antiquewhite;
+  
+}
+*{
+    margin: 0;
+}
+#adu01{
+    border: 5px solid red;
+    color: blueviolet;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}

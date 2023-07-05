@@ -1,0 +1,21 @@
+
+.container{
+    border: 4px solid wheat;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    background-color: bisque;
+    
+}
+.container  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.box1{
+    border: 5px solid tomato;
+    margin: 5px;
+    
+}

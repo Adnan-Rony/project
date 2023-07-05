@@ -1,0 +1,35 @@
+h3{
+    font-size: 30px;
+    /* text-decoration: overline; */
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.first{
+    /* display none and visibility hidden kaj same,but visibility use korle jayga theke jay ar display none dile akber a gayeb hoye jay */
+    /* display: none; */
+    /* visibility: hidden; */
+
+}
+.box{
+    margin: 20px;
+    border: 14px solid red;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 10px 10px 19px blueviolet;
+}
+.blog{
+    border: 10px solid tomato;
+    padding: 20px;
+    text-align: center;
+    /* margin: 20px; */
+    margin-top: 90px;
+    box-shadow: 10px 10px 19px blueviolet;
+  
+}
+.spann{
+    color: blueviolet;
+    font-size: 30px;
+    border: 1px solid red;
+    /* display block ar moddhe height kaj korbe jodi inline hoy tahole kaj korbe nah */
+    /* display: block; */
+}

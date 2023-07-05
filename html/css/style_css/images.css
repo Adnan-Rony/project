@@ -1,0 +1,19 @@
+.header{
+    height: 500px;
+    /* background-color: bisque; */
+    background-image: url('../images/house-icon.png');
+    /* background-image:url('house-icon.png') ; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: 200px; */
+    /* background-position: right top; */
+    /* background position very important */
+
+
+}
+.adu{
+    border: 2px solid rebeccapurple;
+    /* display:inline-block; */
+}

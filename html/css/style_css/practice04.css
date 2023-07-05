@@ -1,0 +1,16 @@
+.adu{
+    border: 5px solid red;
+    padding: 8px;
+    margin: 15px;
+    background-color: chocolate;
+
+}
+.adu22{
+    position: absolute;
+   border-radius: 50%;
+   /* display: block;
+   margin-left: auto;
+   margin-right: auto; */
+   height: 150px;
+   
+}
