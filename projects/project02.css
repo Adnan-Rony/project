@@ -26,3 +26,34 @@
     padding: 10px;
     
 }
+.full-banner{
+    background-color:rgb(61, 60, 60) ;
+    color: white;
+}
+.poster-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    
+    
+}
+
+.adnan{
+    margin-top: 50px;
+   width:320px ;
+   margin-left: 90px;
+   margin-bottom: 130px;
+   border: 5px solid yellow;
+   border-radius: 50% ;
+   
+  
+   /* padding: 16px; */
+
+}
+.span01{
+    color: brown;
+}
+.text{
+    font-size: 30px;
+}
