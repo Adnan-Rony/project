@@ -27,7 +27,8 @@
     
 }
 .full-banner{
-    background-color:rgb(61, 60, 60) ;
+    /* background-color:rgb(61, 60, 60) ; */
+    background-image: url(./images/background.png),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
     color: white;
 }
 .poster-container{
@@ -57,3 +58,36 @@
 .text{
     font-size: 30px;
 }
+.about-me-full{
+    background-color:rgb(0, 0, 0) ;
+    color: white;
+
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* height: 100vh; */
+    
+    
+}
+.adnan2{
+    width: 300px;
+    padding-left: 30px;
+    /* height: 300px; */
+    /* border: 1px solid wheat; */
+   margin-right: 80px;
+    
+}
+.text-about{
+    margin-right: 30px;
+    /* margin-left: 50px; */
+}
+.text-about2{
+   text-align:center;
+}
+.text-about3{
+    margin-top: 12px;
+}
+
