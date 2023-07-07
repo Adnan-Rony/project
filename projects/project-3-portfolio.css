@@ -3,6 +3,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin: 0 200px; */
+    margin-left: 200px;
+    margin-right: 200px;
     
 }
 .nav-title{
@@ -33,4 +36,19 @@ nav a{
   font-weight: 700;
   font-style: normal;
   padding: 15px 35px;
+}
+.header-container{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px  150px;
+    display: flex;
+    align-items: center;
+}
+.pp-picture{
+    width: 260px;
+
+}
+.banner-container{
+
 }
