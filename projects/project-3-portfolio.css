@@ -38,17 +38,47 @@ nav a{
   padding: 15px 35px;
 }
 .header-container{
-    background-color: #fff8f3;
+    background-color:#FFF8F3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size:600px ;
+   
+ 
 }
 .banner{
-    padding: 30px 30px 30px  150px;
+    padding: 30px 30px 0px  150px;
     display: flex;
     align-items: center;
 }
 .pp-picture{
     width: 260px;
+    margin-left: 160px;
 
 }
 .banner-container{
+
+}
+.banner-greeting{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 45px;
+margin-bottom: 0px;
+justify-content: space-between;
+
+
+}
+.banner-title{
+    
+
+font-size: 85px;
+
+font-weight: 700;
+margin-top: 5px;
+
+}
+.banner-discription{
+    margin-top: 20px;
+    width: 585px;
 
 }
