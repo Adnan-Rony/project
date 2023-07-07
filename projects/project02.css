@@ -90,4 +90,44 @@
 .text-about3{
     margin-top: 12px;
 }
+.footer-container{
+    background-color: #2e2e2e;
+    color: white;
+    height:55vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+   
+    
+    
+
+}  
+.logo-input-p{
+    align-items: center;
+    padding: 100px;
+    
+}
+.img-logo{
+    width: 35px;
+    margin-right: 30px;
+    /* padding-top:20px ; */
+}
+/* .logo-input-p{
+    display: flex;
+    justify-content: center;
+} */
+.input-input{
+margin-left: 50px;
+padding-top: 20px;
+
+}
+.copyright{
+    padding-top: 20px;
+    margin-left: 70px;
+    
+}
+
+    
+
 
