@@ -1,0 +1,36 @@
+/* nav related styless */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-title{
+
+}
+.text-primaray{
+    color: #fd6e0a;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.btn-primary{
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  border: 0;
+  /* padding: 5px; */
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  padding: 15px 35px;
+}
