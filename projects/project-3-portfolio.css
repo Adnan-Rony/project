@@ -165,6 +165,7 @@ padding-right: 150px;
     display: flex;
     justify-content: space-around;
     gap: 24px;
+    
 }
 .skill{
     width: 267px;
@@ -210,9 +211,11 @@ font-weight: 700;
     gap: 50px;
     margin-left: 230px;
     margin-right: 227px;
+    
 
 }
 .resume-column{
+   
     
 }
 .resume-item-title{
@@ -222,6 +225,7 @@ font-size: 25px;
 font-style: normal;
 font-weight: 700;
 margin-bottom: 10px;
+
 }
 .resume-item-instritute{
     color: var(--dark-03, #757575);
@@ -239,6 +243,10 @@ font-weight: 400;
 line-height: 28px;
 }
 .resume-items{
+    border-radius: 5px;
+    background: #FFF;
+   
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
    
 }
 .resume-container hr{

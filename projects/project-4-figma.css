@@ -1,0 +1,107 @@
+
+.banner-container{
+    background-image: url(./images/PJ-3/banner2.png);
+    width: 1600px;
+height: 809px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+
+
+
+
+
+}
+.title{
+    color: var(--dark-01, #151414);
+
+font-family: Work Sans;
+font-size: 65px;
+font-style: normal;
+display: flex;
+width: 525px;
+flex-direction: column;
+
+
+
+
+}
+.discription{
+    color: var(--dark-02, #444343);
+
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+margin-top: 24px;
+display: flex;
+width: 494px;
+flex-direction: column;
+
+
+}
+.btn{
+    width: 160px;
+height: 64px;
+border-radius: 5px;
+background: #F15B22;
+border: none;
+color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+
+}
+.banner-title{
+    margin-right: 230px;
+}
+.failer-container{
+    display: flex;
+    justify-content:space-around;
+    
+}
+ul > li{
+    list-style: none;
+}
+.img-women{
+    width: 451px;
+height: 598px;
+padding-top: 140px;
+
+}
+.failer-t{
+    display: flex;
+width: 288px;
+color: var(--dark-01, #151414);
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.failer-title{
+    margin-top: 270px;
+    margin-right: 320px;
+    /* margin-right: 87px; */
+}
+.failer-discription{
+    display: flex;
+width: 416px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--dark-02, #444343);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+ul > li{
+    color: var(--dark-02, #444343);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
