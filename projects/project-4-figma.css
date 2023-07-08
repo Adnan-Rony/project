@@ -146,4 +146,46 @@ line-height: normal;
     width: 1140px;
 height: 300px;
 margin-top:50px ;
+margin-left: 230px;
+margin-right: 230px;
+
+border-radius: 8px;
+   /* background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    */
+   
+
+
+
+
+}
+.image-text{
+    display: flex;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 459px;
+
+    
+
+}
+.text-image{
+    flex-direction: column;
+padding-left: 65px;
+}
+.btn-img{
+    width: 160px;
+height: 64px;
+
+border-radius: 5px;
+background: #FFF;
+color: #F15B22;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+border: none;
+cursor: pointer;
 }
