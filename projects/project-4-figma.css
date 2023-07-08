@@ -1,8 +1,11 @@
 
 .banner-container{
     background-image: url(./images/PJ-3/banner2.png);
-    width: 1600px;
+    /* width: 1600px;
+height: 809px; */
+width: 1600px;
 height: 809px;
+
 display: flex;
 justify-content: flex-end;
 align-items: center;
@@ -122,9 +125,7 @@ font-weight: 700;
 line-height: normal;
 text-align: center;
 }
-.plans-container{
 
-}
 .pp{
     width: 92.958px;
 height: 92.958px;
@@ -188,4 +189,86 @@ font-size: 20px;
 font-weight: 600;
 border: none;
 cursor: pointer;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    color: #F8F8F8;
+    margin-top: 100px;
+    /* margin-bottom: 130px; */
+    align-items: center;
+}
+.footer-discription{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    display: flex;
+width: 485px;
+flex-direction: column;
+flex-shrink: 0;
+
+
+
+
+}
+footer{
+    background-color: #151414;
+   
+height: 577px;
+
+    
+}
+.footer-logo{
+    width: 175px;
+height: 46px;
+flex-shrink: 0;
+}
+
+.subscribe{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer-input{
+    width: 325px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid #FFF;
+background: var(--dark-01, #151414);
+text-align: center;
+
+}
+.btn-footer{
+    border-radius: 8px;
+background: #FFF;
+width: 170.106px;
+height: 64px;
+flex-shrink: 0;
+color: #F15B22;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 15px;
+
+}
+.footer-h3{
+    color: #F8F8F8;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-logo{
+    margin-left: 5px;
+    margin-top: 5px;
 }
