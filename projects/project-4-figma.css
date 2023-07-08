@@ -60,9 +60,7 @@ font-size: 20px;
     justify-content:space-around;
     
 }
-ul > li{
-    list-style: none;
-}
+
 .img-women{
     width: 451px;
 height: 598px;
@@ -82,7 +80,7 @@ line-height: normal;
 }
 .failer-title{
     margin-top: 270px;
-    margin-right: 320px;
+    margin-right: 20px;
     /* margin-right: 87px; */
 }
 .failer-discription{
@@ -104,4 +102,48 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px;
+}
+.icons-header{
+    display: flex;
+    justify-content:space-around;
+
+}
+.icons{
+    /* margin-right: 218px; */
+    text-align: center;
+   
+}
+.plan-h3{
+    color: var(--dark-01, #151414);
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+.plans-container{
+
+}
+.pp{
+    width: 92.958px;
+height: 92.958px;
+
+
+}
+.icon-text{
+    color: var(--dark-01, #151414);
+text-align: center;
+font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.image-container{
+    background-image: url(./images/PJ-3/watch.png);
+    background-repeat: no-repeat;
+    width: 1140px;
+height: 300px;
+margin-top:50px ;
 }
