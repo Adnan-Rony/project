@@ -1,0 +1,12 @@
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    border: 3px solid black;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+/* body{
+    padding: 50px;
+} */
