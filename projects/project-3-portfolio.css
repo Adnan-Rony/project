@@ -50,6 +50,8 @@ nav a{
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size:600px ;
+    height: 100vh;
+   
 
     
    
@@ -65,6 +67,7 @@ nav a{
 .pp-picture{
     width: 260px;
     margin-left: 160px;
+    margin-top: 33px;
 
 }
 
@@ -118,6 +121,7 @@ line-height: 30px;
     
     margin: 0 auto; 
      /* align-items: center; */
+     margin-top: 130px;
 } 
 .about-container{
     background-color: #FFF8F3;
@@ -158,11 +162,13 @@ padding-right: 150px;
 .skills-container{
     display: flex;
     justify-content: space-around;
+    gap: 24px;
 }
 .skill{
     width: 267px;
-height: 377px;
+height: 307px;
 border-radius: 5px;
+
 
 background: #FFF;
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -188,4 +194,11 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 28px;
+}
+.resume-column-title{
+    color:#474747;
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
 }
