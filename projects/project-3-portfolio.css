@@ -249,6 +249,11 @@ line-height: 28px;
     margin-top: 50px;
    
 }
-.download-cv:hover{
 
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
 }
