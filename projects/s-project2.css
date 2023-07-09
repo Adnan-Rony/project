@@ -18,3 +18,41 @@
     font-size: 20px;
     cursor: pointer;
 }
+.banner-container{
+        background-image: url(./images/pj-4/background.jpg),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        background-blend-mode: overlay;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+
+        }
+        .text-banner h2{
+            font-size: 50px;
+        }
+        .span01{
+            color: red;
+        }
+        .text-banner{
+            text-align: center;
+        }
+        .text-banner p{
+            display: flex;
+            width: 450px;
+        }
+        .btn-banner{
+            border-radius: 20px;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            background-color: red;
+            margin-left: 8px;
+            margin-top: 10px;
+
+        }
