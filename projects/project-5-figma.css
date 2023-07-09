@@ -34,6 +34,7 @@
     border-radius: 5px;
     border: none;
     margin-left: 5px;
+    /* size: 50px; */
 
 }
 .banner-container{
@@ -46,7 +47,6 @@
 .img-author{
     width: 383px;
 height: 377px;
-flex-shrink: 0;
 
 
 }
@@ -63,7 +63,9 @@ flex-shrink: 0;
 .banner-name{
     /* text-align: center; */
     font-family: Raleway;
-    font-size: 70px
+    font-size: 70px;
+    margin-top: 10px;
+    
 }
 .banner-p{
     color: #909090;
@@ -84,3 +86,95 @@ padding-top:10px ;
  margin-left: 30px;
  margin-bottom: 20px;
 }
+/* .about{
+    text-align: center;
+    
+}
+.about-title{
+    border: 3px solid black;
+    width: 250px;
+    height: 30px;
+    justify-content: center;
+    
+}
+.about-container{
+    height: 100vh;
+
+}
+.about-box{
+    display: flex;
+    justify-content: space-around;
+}
+.about-box2{
+    text-align: center;
+} */
+.skill-container{
+
+}
+.skill-title{
+
+ font-size: 70px;
+ margin-left: 47%;
+ margin-top: 50px;
+ margin-bottom: 20px;
+ 
+
+}
+.logo{
+    display: flex;
+    justify-content:space-around;
+    gap:155px ;
+    margin-left: 530px;
+    margin-right: 530px;
+    text-align: center;
+    
+}
+.logos-img{
+    width: 84.212px;
+height: 100px;
+
+}
+.logos{
+    margin-top:30px;
+}
+.logo-title{
+    margin-bottom: 65px;
+}
+.h3-logoo{
+    margin-left: 50%;
+}
+.contact-container{
+    height: 70vh;
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-input{
+    width: 265px;
+height: 46px;
+margin-top: 20px;
+border-radius: 8px;
+background-color: #909090;
+border: none;
+
+}
+.input-inpu2{
+    width: 97px;
+height: 45px;
+margin-top: 20px;
+border-radius: 8px;
+border: none;
+background-color: crimson;
+color: white;
+
+}
+.contact-title{
+    align-items: center;
+    justify-content: center;
+}
+
+    
+
