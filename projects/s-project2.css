@@ -68,6 +68,7 @@
             height: 100vh;
             align-items: center;
             padding:20px;
+           
         }
         .box{
             background-color: white;
@@ -93,7 +94,7 @@
             padding: 12px 20px;
             border: none;
             background-color: red;
-            /* margin-left: 5px; */
+            margin-left: 5px;
             margin-top: 10px;
           
 
@@ -116,7 +117,59 @@
             width: 70px;
             height: 70px;
             border-radius:35px;
+            margin-right: 15px;
         }
+        .service-h2{
+            margin-top: 10px;
+        }
+        .card-img{
+            /* div vitor img tag re jokhon width 100% korbo tahole akber fised hoyr jabe */
+            width: 100%;
+            border-radius: 5px;
+            
+        }
+        .items{
+            display: flex;
+            /* justify-content: center; */
+            justify-content:center;
+          
+
+            
+
+        }
+        .card-container{
+            /* width: 80%; */
+            margin: auto;
+            align-items: center;
+            background-color: gray;
+            /* background-image: url(./images/pj-4/footer-bg.png),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)); */
+            height: 100vh;
         
-      
+         
+
+        }
+        .item1{
+            width: 250px;
+            height: 350px;
+            /* background-color: teal; */
+            box-shadow: 4px 8px 4px rgb(201, 174, 174);
+            border-radius: 5px;
+            gap: 10px;
+            align-items: center;
+            margin: 15px;
+
+        }
+        .card-title{
+            margin-top:10px ;
+            margin-bottom: 10px;
+        }
+        .card-title01{
+            /* align-items: center; */
+            text-align: center;
+            margin-bottom: 25px;
+        }
+       .h1-card{
+        text-align: center;
+        font-size: 45px;
+       }
        
