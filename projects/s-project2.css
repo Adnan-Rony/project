@@ -62,6 +62,7 @@
         }
         .service-container{
              background-color: gray;
+             
             color: rgb(13, 13, 13);
             display: flex;
             justify-content: space-around;
@@ -138,12 +139,14 @@
 
         }
         .card-container{
-            /* width: 80%; */
+            width: 70%;
             margin: auto;
             align-items: center;
             background-color: gray;
             /* background-image: url(./images/pj-4/footer-bg.png),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)); */
             height: 100vh;
+            margin-top: 50px;
+            margin-bottom: 50px;
         
          
 

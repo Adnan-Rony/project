@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.menu{
+    display: flex;
+   
+    list-style: none;
+    justify-content: center;
+    gap: 13px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu li{
+    margin-right: 20px;
+}
+.btn{
+    color: #000;
+    /* text-align: center; */
+    /* font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; */
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D7D7D7;
+    height: 100vh;
+    align-items: center;
+}
+.img-author{
+    width: 383px;
+height: 377px;
+flex-shrink: 0;
+
+
+}
+.banner-photo{
+    /* background-color: #000; */
+}
+.about-banner{
+    /* align-items: center; */
+    /* text-align: center; */
+    /* position: absolute; */
+    margin-left: 68px;
+
+}
+.banner-name{
+    /* text-align: center; */
+    font-family: Raleway;
+    font-size: 70px
+}
+.banner-p{
+    color: #909090;
+    /* text-align: center; */
+    font-family: Raleway;
+    font-size: 25px;
+}
+.banner-logo{
+    width: 37.001px;
+height: 35.497px;
+padding-top:10px ;
+
+}
+.icon-banner{
+    display: flex;
+ gap: 30px;
+ align-items:center;
+ margin-left: 30px;
+ margin-bottom: 20px;
+}
