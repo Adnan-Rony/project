@@ -56,3 +56,67 @@
             margin-top: 10px;
 
         }
+        .item{
+            width: 70px;
+          
+        }
+        .service-container{
+             background-color: gray;
+            color: rgb(13, 13, 13);
+            display: flex;
+            justify-content: space-around;
+            height: 100vh;
+            align-items: center;
+            padding:20px;
+        }
+        .box{
+            background-color: white;
+            height: 100px;
+            width: 150px;
+            padding: 40px;
+            border-radius: 5px;
+            text-align: center;
+          
+
+        }
+        .first-two-box{
+            display: flex;
+            gap: 5px;
+            /* margin top important */
+            margin-top: 5px; 
+           
+
+        }
+        .btn-banner01{
+            border-radius: 20px;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            background-color: red;
+            /* margin-left: 5px; */
+            margin-top: 10px;
+          
+
+        }
+        .service-pic{
+            display: flex;
+            align-items: center;
+            margin: 9px;
+        }
+        .btn-service{
+            border-radius: 20px;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            background-color: red;
+            margin-left: 8px;
+
+        }
+        .img-service{
+            width: 70px;
+            height: 70px;
+            border-radius:35px;
+        }
+        
+      
+       
