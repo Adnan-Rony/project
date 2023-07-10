@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 17px;
+  
+}
+.anchor01{
+    
+    margin-right: 25px;
+    color: white;
+
+    
+}
+.anchor01:hover{
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    /* border: none; */
+    padding: 5px;
+}
+.banner01{
+    height: 100vh;
+    background-image: url(../images/pj-6/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    padding-top: 20px;
+    align-items: center;
+   
+
+
+}
+.bannerr{
+    display:flex ;
+    justify-content: center;
+    /* margin-right: 100px; */
+    margin-top: 180px;
+    margin-right: 350px;
+}
+.span-nav{
+    color: blueviolet;
+}
+.banner-h1{
+    font-size: 100px;
+    color: blueviolet;
+}
+.banner-h4{
+    font-size: 30px;
+}
+.banner-h2{
+    padding-bottom: 10px;
+}
+.banner-dis{
+    padding-bottom: 20px;
+}
+.btn-banner{
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.nav-h2{
+    font-size: 40px;
+    margin-left: 39px;
+}
