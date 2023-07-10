@@ -88,7 +88,16 @@
     width: 350px;
     height: 400px;
     border-radius: 20px;
+    box-shadow: 5px 7px 17px blueviolet;
 }
+.author:hover{
+    z-index: 1;
+box-shadow: 0 8px 50px rgba (0,0,0, 0.2);
+transform: scale(1.05);
+}
+
+
+
 .about-text{
     padding-left: 50px;
     display: flex;
@@ -149,13 +158,28 @@
     border-radius: 10px;
     height: 350px;
     width: 300px;
-    
+    background-color: gray;
+    color: black;
+    box-shadow: 5px 7px 17px blueviolet;
+   
+
+ 
 }
+.box:hover{
+    z- index: 1;
+box-shadow: 0 8px 50px rgba (0,0,0, 0.2);
+transform: scale(1.05);
+
+}
+
+
+
 .box-main{
     /* gap: 5px; */
     padding: 40px;
     /* margin-top: 90px; */
     align-items: center;
+   
     
     
 }
@@ -172,7 +196,7 @@
     text-align: center;
     border-radius: 5px;
     border: none;
-    color: white;
+    color: rgb(10, 10, 10);
     cursor: pointer;
     margin-top: 40px;
 }
