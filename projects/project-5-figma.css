@@ -108,14 +108,17 @@ padding-top:10px ;
 .about-box2{
     text-align: center;
 } */
-.skill-container{
+main{
+
+    background-color: bisque;
+    margin-top: 0%;
 
 }
 .skill-title{
 
  font-size: 70px;
  margin-left: 47%;
- margin-top: 50px;
+ /* margin-top: 50px; */
  margin-bottom: 20px;
  
 
@@ -171,10 +174,55 @@ background-color: crimson;
 color: white;
 
 }
-.contact-title{
+.contact-title h2 {
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
+.contact-title p {
+    /* align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-weight: 120px; */
+    /* display: flex; */
+/* width: 763px;
+height: 72px; */
+/* flex-direction: column; */
+/* text-align: center; */
+text-align: center;
+
+
+}
+.footer-container{
+    background-color: black;
+    color: white;
+}
+.item-logo{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo{
+gap: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
+cursor:pointer;
+}
+.footer-title{
+    /* text-align: center;
+    align-items: center;
+    margin-top: 20px; */
+    margin-left: 590px;
+    margin-top: 50px;
+}
+.small-footer{
+    text-align: center;
+    margin-left: 510px;
+   
+    
+}
+
 
     
 
