@@ -166,7 +166,7 @@ transform: scale(1.05);
  
 }
 .box:hover{
-    z- index: 1;
+    z-index: 1;
 box-shadow: 0 8px 50px rgba (0,0,0, 0.2);
 transform: scale(1.05);
 
@@ -212,4 +212,42 @@ transform: scale(1.05);
 .btn-service:hover{
     box-shadow: 5px 8px 7px rebeccapurple;
 
+}
+.project-img{
+    width: 300px;
+    height: 200px;
+}
+.project-main-box{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+margin-top: 50px;
+
+}
+
+.project-container{
+    color: white;
+    background-color: black;
+   /* height: 100vh; */
+}
+.project-h1{
+    font-size: 35px;
+   text-align: center;
+   padding-top: 20px;
+}
+.project-box{
+    margin: 15px;
+    box-shadow: 2px 8px 7px rebeccapurple;
+    border-radius: 10px;
+}
+.project-img{
+    border-radius: 10px;
+   
+
+    
+}
+.project-img:hover{
+    z-index: 1;
+    box-shadow: 0 8px 50px rgba (0,0,0, 0.2);
+    transform: scale(1.05);
 }
