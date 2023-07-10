@@ -74,3 +74,46 @@
     font-size: 40px;
     margin-left: 39px;
 }
+.about-container{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.author{
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+}
+.about-text{
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+section{
+    background-color: gray;
+   
+}
+.about-h3{
+    font-size: 60px;
+    padding-bottom: 10px;
+   
+   
+   
+}
+
+.btn-about{
+    background-color: blueviolet;
+    padding: 10px;
+    
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.about-h2{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
