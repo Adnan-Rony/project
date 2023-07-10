@@ -229,6 +229,7 @@ margin-top: 50px;
     color: white;
     background-color: black;
    /* height: 100vh; */
+  padding-bottom: 60px;
 }
 .project-h1{
     font-size: 35px;
@@ -250,4 +251,72 @@ margin-top: 50px;
     z-index: 1;
     box-shadow: 0 8px 50px rgba (0,0,0, 0.2);
     transform: scale(1.05);
+}
+
+
+.footer-container{
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.footer-logo-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+footer{
+    background-color: gray;
+    height: 50vh;
+}
+.footer-text{
+    
+    align-items: center;
+}
+.footer-logo{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    
+}
+.footer-img{
+    cursor: pointer;
+    width: 40px;
+}
+.footer-h1{
+    /* margin-left: 150px; */
+    text-align: center;
+
+}
+.column{
+    align-items: center;
+   
+    
+}
+.inputt{
+    align-items: center;
+    margin-top: 10px;
+
+}
+.input-inner{
+    margin-top: 10px;
+    border: 0;
+    padding: 8px;
+    padding-right: 80px;
+    border-radius: 10px;
+    
+   
+    color: black;
+    margin-left: 41%;
+   
+}
+.footer-submit{
+    align-items: center;
+    margin-left: 48%;
+    padding: 10px;
+   
+    box-shadow: 2px 8px 7px rebeccapurple;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 10px;
+    background-color: blueviolet;
+    cursor: pointer;
 }
