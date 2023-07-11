@@ -27,7 +27,7 @@
 }
 .banner01{
     height: 100vh;
-    background-image: url(../images/pj-6/background.jpg);
+    background-image: url(./pj-6/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -147,7 +147,7 @@ transform: scale(1.05);
     background-position: center;
     height: 100vh;
     background-size: cover;
-    background-image: url(../images/pj-6/background.png),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    background-image: url(./pj-6/background.png),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
 }
 .box{
     /* padding: 5px; */
@@ -254,10 +254,7 @@ margin-top: 50px;
 }
 
 
-.footer-container{
-    /* display: flex;
-    justify-content: space-around; */
-}
+
 
 .footer-logo-main{
     display: flex;

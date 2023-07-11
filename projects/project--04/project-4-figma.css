@@ -1,6 +1,6 @@
 
 .banner-container{
-    background-image: url(./images/PJ-3/banner2.png);
+    background-image: url(./PJ-4/banner2.png);
     /* width: 1600px;
 height: 809px; */
 width: 1600px;
@@ -142,7 +142,7 @@ font-weight: 700;
 line-height: normal;
 }
 .image-container{
-    background-image: url(./images/PJ-3/watch.png);
+    background-image: url(./PJ-4/watch.png);
     background-repeat: no-repeat;
     width: 1140px;
 height: 300px;
