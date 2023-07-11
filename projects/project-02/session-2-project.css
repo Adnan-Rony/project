@@ -27,7 +27,7 @@
 
 .banner-container{
     height: 100vh;
-background-image: url(./images/pj-4/background.jpg),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+background-image: url(./pj-2-s/background.jpg),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
 background-repeat: none;
 background-blend-mode: overlay;
 background-position: center;
@@ -62,7 +62,7 @@ text-align: center;
 .service-container{
     height: 100vh;
   
-    background-image: url(./images/pj-4/footer-bg.png),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-image: url(./pj-2-s/footer-bg.png),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
     
     background-repeat: none;
     background-size: cover; 
