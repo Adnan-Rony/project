@@ -1,0 +1,38 @@
+.box{
+    border: 2px dotted plum;
+    width: 200px;
+}
+/* .java{
+    position: relative;
+    left: 50px;
+    top: 40px;
+} */
+
+/* .java{
+    position: absolute;
+    top:40px;
+     left: 500px;
+} */
+
+/* .java{
+    position:sticky ;
+     top: 0px; 
+} */
+
+.java{
+    position: fixed;
+    top: 200px;
+    left: 50px;
+}
+
+.dummy{
+    border: 2px solid blueviolet;
+    width: 200px;
+    height: 200px;
+}
+.last{
+    border: 2px solid rgb(17, 162, 72);
+    width: 250px;
+    height: 200px;
+
+}

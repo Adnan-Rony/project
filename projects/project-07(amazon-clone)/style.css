@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+
+}
+.navber{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+.logo{
+    background-image: url(./pj-07/amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+.border:hover{
+    /* transparent hosse border color ja tai color show korbe..aiter kono colour nai */
+    border: 1px solid transparent;
+}

@@ -1,0 +1,31 @@
+.box{
+    position: relative;
+}
+.man{
+    z-index: 1;
+
+}
+.car{
+    top: -200px;
+    z-index: 5;
+}
+.road{
+    top: -390px;
+}
+
+
+h3::after{
+content: ',pdf';
+color: brown;
+font-size: 10px;
+background-color: yellow;
+}
+h3::before{
+    content: 'start ';
+    background-color: yellow;
+}
+p::first-letter{
+    background-color: red;
+    font-size: 2em;
+
+}
