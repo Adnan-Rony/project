@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.box{
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 20px;
+}
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.item{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .container{
+        
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .container-2{
+        
+        flex-direction: column;
+    }
+    
+}
