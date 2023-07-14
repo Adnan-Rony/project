@@ -1,0 +1,46 @@
+.banner{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ height: 100vh;
+}
+.text-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-container p{
+    display: flex;
+    /* width: 200px;
+    height: 100px; */
+    width: 439px;
+height: 87px;
+}
+.img-1{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+    
+}
+.img-1 img{
+   width: 200px;
+height: 400px;
+flex-shrink: 0;
+
+}
+.down{
+    padding-top: 90px;
+}
+
+@media screen and (max-width:576px) {
+    .text-container{
+        flex-direction: column;
+    }
+    .img-1{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}

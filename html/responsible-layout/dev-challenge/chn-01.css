@@ -1,0 +1,31 @@
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+   
+    height: 100vh;
+    align-items: center;
+}
+.picture{
+    width: 400px;
+    height: 400px;
+}
+.btn{
+    width: 216px;
+height: 40px;
+flex-shrink: 0;
+background-color:#333;
+color: white;
+}
+.text{
+    margin-right: 90px;
+}
+
+@media screen and (max-width:576px) {
+    .banner-container{
+        flex-direction: column;
+    }
+    .text{
+        margin: auto;
+    }
+    
+}
