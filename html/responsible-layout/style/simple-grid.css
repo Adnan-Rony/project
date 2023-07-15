@@ -1,7 +1,7 @@
 .container{
 display: grid;
 grid-template-columns: repeat(4,1fr);
-grid-template-rows: repeat(3,200px) 20px 20px;
+grid-template-rows: repeat(3,200px) 30px 30px;
 gap: 20px;
 }
 
@@ -10,14 +10,21 @@ gap: 20px;
 
 .box{
     background-color: gray;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
     
 }
 #box-1{
-    grid-row: span 5;
+    grid-row: span 3;
 }
 
 #box-11, #box-12{
-    grid-column: span 3;
+    grid-column: span 4
+    ;
 }
 /* #box-12{
     grid-column: span 3;

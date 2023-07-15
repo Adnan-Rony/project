@@ -1,0 +1,19 @@
+/* .img{
+    width: 100px;
+height: 100px;
+flex-shrink: 0;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    
+ 
+*/
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
