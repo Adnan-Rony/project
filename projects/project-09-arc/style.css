@@ -1,12 +1,14 @@
-
-
 *{
     margin: 0;
     padding: 0;
 }
+
+
 header{
     background-color: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
+
+   
 }
 nav{
     display: flex;
@@ -29,7 +31,67 @@ nav li a{
 font-size: 18px;
 }
 .title-nav{
-    font-size: 45px;
+    font-size: 35px;
     color: #131313;
     font-family: Work Sans;
+}
+/* banner section */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    color: #131313;
+    font-family: Work Sans;
+font-size: 64px;
+}
+.banner-discription{
+    color:  #727272;
+    font-family: Work Sans;
+font-size: 16px;
+}
+.btn-primary{
+    margin-top: 10px;
+    border-radius: 8px;
+background: #FF900E;
+width: 130px;
+height: 50px;
+border: none;
+color: white;
+
+}
+.banner img{
+    width: 100%;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+
+}
+.banner{
+    margin-top: 60px;
+    
+}
+
+
+
+/* responsive media query */
+/* mobile */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+/* medium responsible */
+@media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
 }
